@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="center-div">
+        <div class="players">
+            <div>
+                <label for="playerX">Player X:</label><input type="text" name="playerX" id="player1-name"/>
+            </div>
+            <div>
+                <label for="playerO">Player O:</label><input type="text" name="playerO" id="player2-name"/>
+            </div>
+        </div>
+        <div class="board" id="board">
+            <div class="cell" data-index-number="0" data-cell></div>
+            <div class="cell" data-index-number="1" data-cell></div>
+            <div class="cell" data-index-number="2" data-cell></div>
+            <div class="cell" data-index-number="3" data-cell></div>
+            <div class="cell" data-index-number="4" data-cell></div>
+            <div class="cell" data-index-number="5" data-cell></div>
+            <div class="cell" data-index-number="6" data-cell></div>
+            <div class="cell" data-index-number="7" data-cell></div>
+            <div class="cell" data-index-number="8" data-cell></div>
+        </div>
+        <button class="restart-button" id="restart-button">Restart</button>
+        <div class="winning-page" id="winning-page">
+            <p id="winning-text">Player X has won</p>
+            <button class="restart-button" id="restart-button-winning">Restart</button>
+        </div>
+    </div>
+</body>
+</html>
